@@ -1,0 +1,108 @@
+5+5
+10
+"hello," + "binoy..."
+'hello,binoy...'
+"H" + "E" + "L"
+'HEL'
+"This"+ "6" + "cpost"
+'This6cpost'
+"this" + "cost" + "$6"
+'thiscost$6'
+"this cost " + str (6) + "dollar"
+'this cost 6dollar'
+this cost " + str (6) + " dollar"
+  File "<input>", line 1
+    this cost " + str (6) + " dollar"
+            ^
+SyntaxError: invalid syntax
+"this cost " + str(6) + " dollar"
+'this cost 6 dollar'
+"My name is" + "Hello:binoy:World"+split(":")[1]
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'split' is not defined
+"My name is" + "Hello:binoy:World". split(":")[1]
+'My name isbinoy'
+"My name is " + "Hello:binoy:World". split(":")[1]
+'My name is binoy'
+true == true
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'true' is not defined
+5 = 5
+  File "<input>", line 1
+SyntaxError: can't assign to literal
+5 == 5
+True
+true ==true
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'true' is not defined
+true == true
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'true' is not defined
+True == True
+True
+False == True
+False
+True is True
+True
+print ("I like " + ["Movies" , "16" + "Games"] [0])
+I like Movies
+print ("I like " + ["Movies" , "16" + "Games"] [1])
+I like 16Games
+print ("I like " + ["Movies" , "16" , "Games"] [1])
+I like 16
+print ("I like " + ["Movies" , "16" + "Games"] [2])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+IndexError: list index out of range
+print ("I like " + ["Movies" , "16" , "Games"] [2])
+I like Games
+{"Name": binoy , "Age": 27, "Place": Pune}['name']
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'binoy' is not defined
+{"Name": "binoy" , "Age": 27, "Place": "Pune"}["name"]
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+KeyError: 'name'
+{"Name": "binoy" , "Age": 27, "Place": "Pune"}["Name"]
+'binoy'
+{"Name": "binoy" , "Age": 27, "Place": "Pune"}["Age"]
+27
+{"Name": "binoy" , "Age": 27, "Place": "Pune"}["Place"]
+'Pune'
+"This is string" + "hello"
+'This is stringhello'
+"This is string " + "hello"
+'This is string hello'
+greeting= "hello world"
+print (greeting)
+hello world
+greeting = greeting.split(" ")[0]
+print (greeting)
+hello
+print (greeting + "binoy")
+hellobinoy
+print (greeting + " binoy ")
+hello binoy 
+greeting = greeting + "binoy"
+print (greeting)
+hellobinoy
+number=1
+second number=2
+  File "<input>", line 1
+    second number=2
+                ^
+SyntaxError: invalid syntax
+secondnumber=2
+print (number*secondnumber*number)
+2
+print (number*secondnumber*number*secondnumber)
+4
+sorted([5,4,14,10,15,2,1])
+[1, 2, 4, 5, 10, 14, 15]
+sorted(["A","c","D",'15','2',"Z"])
+['15', '2', 'A', 'D', 'Z', 'c']
